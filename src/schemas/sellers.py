@@ -1,6 +1,6 @@
 from pydantic import BaseModel, EmailStr
 
-__all__ = ["IncomingSeller", "ReturnedAllSellers", "ReturnedSeller", "ReturnedSellerWithBooks"]
+__all__ = ["IncomingSeller", "ReturnedAllSellers", "ReturnedSeller", "ReturnedSellerWithBooks", "BaseSeller"]
 
 from src.schemas import ReturnedBookWithoutSellerId
 
